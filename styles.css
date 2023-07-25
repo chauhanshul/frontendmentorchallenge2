@@ -1,0 +1,128 @@
+body{
+  font-family: 'Hanken Grotesk', sans-serif;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 10%;
+}
+.attribution a {
+   color: hsl(228, 45%, 44%);
+}
+.main{
+  box-shadow: 1px 1px 5px ;
+  width: 50%;
+  margin: 5% auto 0 auto;
+  /* height: 31rem; */
+  height: 72vh;
+  border-radius: 25px;
+}
+.part1{
+  background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+  border-radius: 25px;
+  text-align: center;
+  padding: 5% 10%;
+  color: hsl(241, 100%, 89%);
+  font-weight: 700;
+}
+.circle{
+  height: 45%;
+  width: 75%;
+  background-image: linear-gradient( hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+  border-radius: 100%;
+  margin: 15% auto;
+}
+.score{
+  font-size: 4rem;
+  color: hsl(0, 0%, 100%);
+  position: relative;
+  top: 25%;
+  left: 0;
+}
+.text{
+  position: relative;
+  top:20%;
+  color: hsl(241, 100%, 89%);
+}
+p{
+  font-size: 18px;
+  font-weight: 500;
+}
+h1{
+  color: hsl(0, 0%, 100%);
+}
+.part2{
+  padding: 5% 5%;
+}
+.part2 h4{
+  margin-bottom: 10%;
+}
+.basic-box{
+  width:95%;
+  height: 12%;
+  margin: 7% 2%;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  padding: 0 5%;
+}
+.button-styles{
+  width: 95%;
+  height: 12%;
+  background-color: hsl(224, 30%, 27%);
+  border-radius: 20px;
+  color: hsl(0, 0%, 100%);
+}
+.txt{
+  margin-left: 3%;
+}
+.reaction{
+  background-color: hsla(0, 100%, 67%, 0.1);
+  color: hsl(0, 100%, 67%);
+}
+.memory{
+  background-color: hsla(39, 100%, 56%, 0.1);
+  color: hsl(39, 100%, 56%);
+}
+.verbal{
+  background-color: hsla(166, 100%, 37%, 0.1);
+  color: hsl(166, 100%, 37%)
+}
+.visual{
+  background-color: hsla(234, 85%, 45%, 0.1);
+  color: hsl(234, 85%, 45%);
+}
+.scores{
+  position: relative;
+  left: 38%;
+  color: hsl(224, 30%, 27%);
+}
+
+
+
+
+
+
+
+/* phone specific styles */
+
+@media (max-width: 1440px) {
+
+  body{
+    margin:0;
+  }
+  .main{
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+  }
+  .part1-txt{
+    margin-bottom: 12%;
+  }
+  .circle{
+    width: 60%;
+  }
+  .part1{
+    padding-bottom: 12%;
+  }
+}
